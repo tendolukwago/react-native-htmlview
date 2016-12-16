@@ -70,9 +70,9 @@ class HtmlView extends Component {
 
   render() {
     if (this.state.element) {
-      return <Text children={this.state.element} />
+      return <View children={this.state.element} />
     }
-    return <Text />
+    return <View />
   }
 }
 
